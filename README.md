@@ -1,44 +1,38 @@
-# Salary Predictor
-
-This is a web-based salary prediction app built using **IBM Watson AutoAI** and **Streamlit**. It predicts salaries based on user input like education, experience, job title, and other factors.
-
----
-
-## 🚀 Features
-
-- 🔮 Predict salary using an IBM AutoAI machine learning model
-- 🎯 Interactive and user-friendly GUI with clean form layout
-- 🧠 Inputs include job title, experience, education level, etc.
-- 💬 Real-time result from deployed AutoAI model
-- 🎨 GUI was upgraded to appear clean and **centered**
+# Streamlit-IBM-Watson-Salary-Predictor
+AutoAI Salary Predictor is a web application built using **Streamlit** and powered by **IBM Watson AutoAI**. It predicts the salary of a user based on input features such as education level, job title, experience, and more. The backend model is trained and deployed using IBM Watson Machine Learning, and predictions are retrieved through IBM's REST API.
 
 ---
 
-## 🖼️ GUI Screenshots
+## 🎯 Objective
 
-### 🔻 Before (Default layout)
-The form was split into two columns, not visually appealing.
-
-![Before GUI](https://i.imgur.com/IezKdWb.png)
-
----
-
-### 🔼 After (Improved Centered Layout)
-Everything is neatly centered in a single column for a cleaner, modern UI.
-
-![After GUI](https://i.imgur.com/z8CRyoY.png)
-
-> 🎨 The "Predict Salary" result is also shown in the center for better UX!
+To build an intelligent web-based salary prediction tool that:
+- Takes user profile inputs through a friendly UI.
+- Sends data to an IBM AutoAI model hosted in the cloud.
+- Returns predicted salary in real-time.
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Tools & Technologies Used
 
-| Tool       | Purpose                    |
-|------------|-----------------------------|
-| Python     | Core Programming Language   |
-| Streamlit  | Frontend Web Interface      |
-| IBM AutoAI | ML Model Deployment         |
-| REST API   | Model Integration           |
+| Technology       | Purpose                          |
+|------------------|----------------------------------|
+| **Streamlit**    | Frontend web app interface       |
+| **IBM AutoAI**   | Model training and deployment    |
+| **REST API**     | Communication with IBM WML       |
+| **IBM IAM**      | API Authentication using tokens  |
+| **Python**       | Backend logic and integration    |
 
 ---
+
+## 🧩 Features
+
+- Responsive and clean user interface
+- Dropdowns, text, and number inputs for easy data entry
+- API integration with IBM Watson Machine Learning
+- Real-time salary prediction with loading feedback
+- Modular and reusable code structure
+
+---
+
+ 
+ 
